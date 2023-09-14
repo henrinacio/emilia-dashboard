@@ -1,0 +1,22 @@
+{
+  "name": "emilia-dashboard",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --watch server.js"
+  },
+  "author": "Henrique de Godoy Inácio",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.49.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-n": "^16.1.0",
+    "eslint-plugin-promise": "^6.1.1"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "papaparse": "^5.4.1"
+  }
+}
